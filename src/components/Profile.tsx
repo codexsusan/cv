@@ -21,7 +21,7 @@ function Profile({ profile }: { profile: ProfileProps }) {
                 <Header>{profile.name}</Header>
                 <Description>
                     {profile.description}
-                    <div className="max-w-md font-light text-base tracking-wider text-neutral-600 flex items-center gap-x-2">
+                    <div className="max-w-md font-light text-base tracking-wider text-neutral-600 flex items-center gap-x-2 mt-3">
                         <LocateFixed size={24} className="inline" />
                         <p className="font-inter mt-1">{profile.location}</p>
                     </div>
