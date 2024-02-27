@@ -1,8 +1,8 @@
 function Button({ children }: { children: React.ReactNode }) {
   return (
-    <button className="hover:bg-white p-1.5 rounded-lg border border-gray-100 hover:border-gray-300">
+    <div className="hover:bg-white p-1.5 pt-2 rounded-lg border border-gray-100 hover:border-gray-300 flex justify-center items-center">
       {children}
-    </button>
+    </div>
   );
 }
 

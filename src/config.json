@@ -1,0 +1,123 @@
+{
+  "profile": {
+    "name": "Susan Khadka",
+    "description": "Experienced Full Stack Developer dedicated to delivering high-quality web solutions for your unique needs.",
+    "location": "Kathmandu, Nepal",
+    "image": "https://avatars.githubusercontent.com/u/106180687?v=4",
+    "medium": {
+      "github": { "name": "Github", "link": "https://github.com/codexsusan" },
+      "email": { "name": "Email", "link": "mailto:susankhadka708@gmail.com" }
+    }
+  },
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node",
+    "MongoDB",
+    "PostgreSQL",
+    "Sequelize",
+    "Tailwind CSS"
+  ],
+  "experiences": [
+    {
+      "role": "Backend Developer",
+      "company": "Jotno",
+      "date": "May 2023 - Sep 2023",
+      "type": "Freelance",
+      "description": "Worked on the backend of the Jotno app."
+    }
+  ],
+  "education": [
+    {
+      "institute": "Marwadi University",
+      "date": "2020 - 2024",
+      "course": "Bachelor's Degree in Computer Engineering"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Social Hub",
+      "description": "Social Hub is a dynamic social community based platform designed to provide users with a Reddit-like experience. It helps users to connect with people of similar interests and hobbies.",
+      "date": "Aug 2023 - Oct 2023",
+      "stack": [
+        "React",
+        "Redux Toolkit",
+        "Typescript",
+        "Tailwind CSS",
+        "Node",
+        "Express",
+        "MongoDB"
+      ],
+      "links": [
+        {
+          "name": "Github",
+          "link": "https://github.com/codexsusan/social-hub"
+        },
+        {
+          "name": "Live",
+          "link": "https://socialhub.susankhadka.com.np/"
+        }
+      ]
+    },
+    {
+      "title": "Taskboard",
+      "description": "TaskBoard is a simple and effective task management system that allows organizations to register and manage their employees efficiently.",
+      "date": "May 2023 - July 2023",
+      "stack": [
+        "React",
+        "Typescript",
+        "Node",
+        "Express",
+        "PostgreSQL",
+        "Sequelize",
+        "Tailwind CSS"
+      ],
+      "links": [
+        {
+          "name": "Github",
+          "link": "https://github.com/codexsusan/taskboard"
+        },
+        {
+          "name": "Live",
+          "link": "https://taskboard.susankhadka.com.np/"
+        }
+      ]
+    },
+    {
+      "title": "Bloomsphere",
+      "description": "A full-stack personal blog platform with responsive design and robust tech stack for optimal performance and engagement.",
+      "date": "Dec 2023 - Jan 2024",
+      "stack": [
+        "React",
+        "React-Query",
+        "Typescript",
+        "Node",
+        "Express",
+        "PostgreSQL",
+        "Sequelize"
+      ],
+      "links": [
+        {
+          "name": "Github",
+          "link": "https://github.com/codexsusan/bloomsphere"
+        },
+        {
+          "name": "Live",
+          "link": "https://bloomsphere.susankhadka.com.np/blogs"
+        }
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "event": "Azadi Ka Amrit Mahotsav Hackathon 2022 - Winner",
+      "date": "2023",
+      "points": [
+        "Selected among the top 69 teams out of 2087 teams for final round.",
+        "Developed an android application for Rajkot Municipal Corporation for donating and receiving food, clothes, and other essentials."
+      ],
+      "stack": ["Flutter", "Dart", "Node", "Express", "Git", "MongoDB"]
+    }
+  ]
+}
