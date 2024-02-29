@@ -86,17 +86,9 @@
     },
     {
       "title": "Bloomsphere",
-      "description": "A full-stack personal blog platform with responsive design and robust tech stack for optimal performance and engagement.",
+      "description": "A static personal blog platform with responsive design and robust.",
       "date": "Dec 2023 - Jan 2024",
-      "stack": [
-        "React",
-        "React-Query",
-        "Typescript",
-        "Node",
-        "Express",
-        "PostgreSQL",
-        "Sequelize"
-      ],
+      "stack": ["Next JS", "Typescript", "Tailwind CSS"],
       "links": [
         {
           "name": "Github",
@@ -104,7 +96,7 @@
         },
         {
           "name": "Live",
-          "link": "https://bloomsphere.susankhadka.com.np/blogs"
+          "link": "https://bloomsphere.susankhadka.com.np"
         }
       ]
     }
