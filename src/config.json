@@ -86,7 +86,7 @@
     },
     {
       "title": "Bloomsphere",
-      "description": "A static personal blog platform with responsive design and robust.",
+      "description": "This project is a personal blog platform with responsive design and robust, to easily create and manage my own blogs with markdown files. Leveraging the simplicity and versatility of markdown.",
       "date": "Dec 2023 - Jan 2024",
       "stack": ["Next JS", "Typescript", "Tailwind CSS"],
       "links": [
