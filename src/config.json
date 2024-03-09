@@ -26,6 +26,12 @@
       "date": "May 2023 - Sep 2023",
       "type": "Freelance",
       "description": "Worked on the backend of the Jotno app."
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Maharshi Care",
+      "date": "May 2023 - Jan 2024",
+      "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
     }
   ],
   "education": [
