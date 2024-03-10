@@ -20,8 +20,7 @@ function ExperienceCard({ experience }: { experience: ExperienceProps }) {
       </div>
       <div className="flex items-center gap-x-2">
         <div className="text-sm font-mono">{experience.role}</div>
-        {experience.type && <Bullet>{experience.type}</Bullet>}
-
+        {experience.type.length > 0 && <Bullet>{experience.type}</Bullet>}
       </div>
       {/* <Description>Worked on the backend of the Jotno app.</Description> */}
     </div>
