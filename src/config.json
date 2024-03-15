@@ -21,18 +21,18 @@
   ],
   "experiences": [
     {
-      "role": "Backend Developer",
-      "company": "Jotno",
-      "date": "May 2023 - Sep 2023",
-      "type": "Freelance",
-      "description": "Worked on the backend of the Jotno app."
-    },
-    {
       "role": "Full Stack Developer",
       "company": "Maharshi Care",
       "date": "May 2023 - Jan 2024",
       "type": "",
       "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
+    },
+    {
+      "role": "Backend Developer",
+      "company": "Jotno",
+      "date": "July 2023 - Oct 2023",
+      "type": "Freelance",
+      "description": "Worked on the backend of the Jotno app."
     }
   ],
   "education": [
@@ -106,6 +106,13 @@
           "link": "https://bloomsphere.susankhadka.com.np"
         }
       ]
+    },
+    {
+      "title": "Sahayata Setu",
+      "description": "Android application that connects donors, beneficiaries, volunteer and NGO’s on a single platform.",
+      "date": "Feb 2023",
+      "stack": ["Flutter", "Dart", "Node JS", "Mongo"],
+      "links": []
     }
   ],
   "awards": [
