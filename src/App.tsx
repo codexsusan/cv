@@ -1,12 +1,16 @@
+import { useEffect } from "react";
 import Award from "./components/sections/Award";
 import Education from "./components/sections/Education";
 import Experience from "./components/sections/Experience";
 import { Profile } from "./components/sections/Profile";
 import Project from "./components/sections/Project";
 import Skill from "./components/sections/Skill";
-import user from "./config.json";
+import user from "./user-data.json";
 
 function App() {
+  useEffect(() => {
+    document.title = `${user.profile.name} | OpenCV`;
+  }, []);
   return (
     <div className="font-inter p-1  flex justify-center">
       <div className="max-w-2xl w-full flex flex-col gap-y-5 md:mt-8">

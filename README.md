@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+![Preview Image](public/preview.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# OpenCV
+OpenCV is acts as a template if anyone want to quickly setup a cv/portfolio website. It has been developed by inspiring from [Bartosz Jarocki](https://cv.jarocki.me/) cv website. [Github Link](https://github.com/bartoszjarocki/cv).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is built using React with Typescript.
 
-## Expanding the ESLint configuration
+## Getting Started Locally
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To get started with OpenCV, follow these simple steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:  `git clone https://github.com/codexsusan/OpenCV`
+2. Change directory to OpenCV: `cd OpenCV`
+3. Install the required dependencies: `npm install`
+4. Start the server: `npm run dev`
+5. Open your browser and access OpenCV at `http://localhost:5173`
+6. You can update your info in `user-data.json` file inside `src` folder. 
+7. After all you are free to alter the components and use it if you can.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Support
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+If you encounter any issues or need assistance with OpenCV, feel free to [create an issue](https://github.com/codexsusan/OpenCV/issues). We will do our best to address the problems and provide timely support.
+
+
+Thanks for checking out.
