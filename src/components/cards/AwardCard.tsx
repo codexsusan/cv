@@ -1,9 +1,9 @@
-import Bullet from "./Bullet";
-import Description from "./Description";
-import List from "./List";
-import SubHeader from "./SubHeader";
+import Bullet from "../common/Bullet";
+import Description from "../common/Description";
+import List from "../common/List";
+import SubHeader from "../common/SubHeader";
 
-interface AwardCardProps {
+export interface AwardCardProps {
     event: string;
     date: string;
     points: string[];
@@ -26,13 +26,6 @@ function AwardCard({ award }: { award: AwardCardProps }) {
                         Developed an android application for Rajkot Municipal Corporation
                         for donating and receiving food, clothes, and other essentials.
                     </List>
-                    {/* <div className="flex items-center gap-x-2 pt-1 pb-0.5 px-2 rounded-md">
-                        <p>•</p>
-                        <p className="">
-                            Developed an android application for Rajkot Municipal Corporation
-                            for donating and receiving food, clothes, and other essentials.
-                        </p>
-                    </div> */}
                 </Description>
             </div>
             <div className="flex gap-2 flex-wrap">

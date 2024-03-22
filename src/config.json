@@ -2,11 +2,15 @@
   "profile": {
     "name": "Susan Khadka",
     "description": "Experienced Full Stack Developer dedicated to delivering high-quality web solutions for your unique needs.",
-    "location": "Kathmandu, Nepal",
+
     "image": "https://avatars.githubusercontent.com/u/106180687?v=4",
+    "email": { "name": "Email", "link": "mailto:susankhadka708@gmail.com" },
     "medium": {
       "github": { "name": "Github", "link": "https://github.com/codexsusan" },
-      "email": { "name": "Email", "link": "mailto:susankhadka708@gmail.com" }
+      "twitter": {
+        "name": "Twitter",
+        "link": "https://twitter.com/sushantkhadka_"
+      }
     }
   },
   "skills": [
@@ -20,13 +24,13 @@
     "Tailwind CSS"
   ],
   "experiences": [
-    {
-      "role": "Full Stack Developer",
-      "company": "Maharshi Care",
-      "date": "May 2023 - Jan 2024",
-      "type": "",
-      "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
-    },
+      {
+        "role": "Full Stack Developer",
+        "company": "Maharshi Care",
+        "date": "May 2023 - Jan 2024",
+        "type": "",
+        "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
+      },
     {
       "role": "Backend Developer",
       "company": "Jotno",

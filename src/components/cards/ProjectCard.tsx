@@ -1,10 +1,10 @@
-import Link from "../assets/icons/link";
-import Bullet from "./Bullet";
-import Button from "./Button";
-import Description from "./Description";
-import SubHeader from "./SubHeader";
+import Link from "../../assets/icons/link";
+import Bullet from "../common/Bullet";
+import Button from "../common/Button";
+import Description from "../common/Description";
+import SubHeader from "../common/SubHeader";
 
-interface ProjectCardProps {
+export interface ProjectCardProps {
   title: string;
   description: string;
   date: string;
@@ -51,24 +51,5 @@ function ProjectCard({ project }: { project: ProjectCardProps }) {
     </div>
   );
 }
-
-// function LinkHandler() {
-//   return (
-//     <div className="flex flex-col gap-2 justify-end">
-//       <Button>
-//         <div className="flex items-center gap-x-2">
-//           <Link />
-//           <p className="text-base">Github</p>
-//         </div>
-//       </Button>
-//       <Button>
-//         <div className="flex items-center gap-x-2">
-//           <Link />
-//           <p className="text-base">Live</p>
-//         </div>
-//       </Button>
-//     </div>
-//   );
-// }
 
 export default ProjectCard;

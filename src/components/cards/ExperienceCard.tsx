@@ -1,7 +1,7 @@
-import Bullet from "./Bullet";
-import SubHeader from "./SubHeader";
+import Bullet from "../common/Bullet";
+import SubHeader from "../common/SubHeader";
 
-interface ExperienceProps {
+export interface ExperienceCardProps {
   role: string;
   company: string;
   date: string;
@@ -9,7 +9,7 @@ interface ExperienceProps {
   description: string;
 }
 
-function ExperienceCard({ experience }: { experience: ExperienceProps }) {
+function ExperienceCard({ experience }: { experience: ExperienceCardProps }) {
   return (
     <div className="flex flex-col gap-y-1.5 border border-slate-300/40 p-2 rounded-md hover:bg-gray-50 hover:border-gray-300">
       <div className="flex justify-between items-center">
@@ -22,7 +22,6 @@ function ExperienceCard({ experience }: { experience: ExperienceProps }) {
         <div className="text-sm font-mono">{experience.role}</div>
         {experience.type.length > 0 && <Bullet>{experience.type}</Bullet>}
       </div>
-      {/* <Description>Worked on the backend of the Jotno app.</Description> */}
     </div>
   );
 }

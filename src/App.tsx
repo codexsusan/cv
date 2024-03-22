@@ -1,10 +1,9 @@
-import AwardCard from "./components/AwardCard";
-import Card from "./components/Card";
-import EducationCard from "./components/EducationCard";
-import ExperienceCard from "./components/ExperienceCard";
-import Header from "./components/Header";
-import Profile from "./components/Profile";
-import ProjectCard from "./components/ProjectCard";
+import Award from "./components/sections/Award";
+import Education from "./components/sections/Education";
+import Experience from "./components/sections/Experience";
+import { Profile } from "./components/sections/Profile";
+import Project from "./components/sections/Project";
+import Skill from "./components/sections/Skill";
 import user from "./config.json";
 
 function App() {
@@ -15,46 +14,19 @@ function App() {
         <Profile profile={user.profile} />
 
         {/* Skills Section */}
-        <div className="flex flex-col gap-y-3 p-3">
-          <Header>Skills</Header>
-          <div className="flex gap-2 flex-wrap justify-center">
-            {user.skills.map((skill, index) => {
-              return <Card key={index}>{skill}</Card>;
-            })}
-          </div>
-        </div>
+        <Skill skills={user.skills} />
 
         {/* Experience Section */}
-        <div className="flex flex-col gap-y-2 px-1.5">
-          <Header classNames="p-1.5">Experience</Header>
-          {user.experiences.map((experience, index) => {
-            return <ExperienceCard key={index} experience={experience} />;
-          })}
-        </div>
+        <Experience experiences={user.experiences} />
 
         {/* Education Section */}
-        <div className="flex flex-col gap-y-2 px-1.5">
-          <Header classNames="p-1.5">Education</Header>
-          {user.education.map((education, index) => {
-            return <EducationCard key={index} education={education} />;
-          })}
-        </div>
+        <Education education={user.education} />
 
         {/* Project Section */}
-        <div className="flex flex-col gap-y-2 px-1.5">
-          <Header classNames="p-1.5">Projects</Header>
-          {user.projects.map((project, index) => {
-            return <ProjectCard key={index} project={project} />;
-          })}
-        </div>
+        <Project projects={user.projects} />
 
         {/* Award Section */}
-        <div className="flex flex-col gap-y-2 px-1.5">
-          <Header classNames="p-1.5">Awards</Header>
-          {user.awards.map((award, index) => {
-            return <AwardCard key={index} award={award} />;
-          })}
-        </div>
+        <Award awards={user.awards} />
 
         {/* Footer Section */}
         <div className="border-t border-slate-300/40 p-4">
