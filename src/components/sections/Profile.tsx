@@ -2,6 +2,7 @@ import { Github, MailOpen, MapPin, Twitter } from "lucide-react";
 import Header from "../common/Header";
 import Description from "../common/Description";
 import Button from "../common/Button";
+import Tooltip from "../common/Tooltip";
 
 interface ProfileProps {
     name: string;
@@ -51,13 +52,19 @@ export const ProfileLinks = ({
 }) => {
     return (
         <div className="flex gap-x-3 text-gray-600 pt-2">
-            <ProfileLinkButton link={medium.github.link}>
-                <Github strokeWidth={1.75} />
-            </ProfileLinkButton>
-            <ProfileLinkButton link={medium.twitter.link}>
-                <Twitter strokeWidth={1.75} />
-            </ProfileLinkButton>
-            {email && <MailButton link={email.link} />}
+            <Tooltip content="Github">
+                <ProfileLinkButton link={medium.github.link}>
+                    <Github strokeWidth={1.75} />
+                </ProfileLinkButton>
+            </Tooltip>
+            <Tooltip content="Twitter">
+                <ProfileLinkButton link={medium.twitter.link}>
+                    <Twitter strokeWidth={1.75} />
+                </ProfileLinkButton>
+            </Tooltip>
+            <Tooltip content="Email">
+                {email && <MailButton link={email.link} />}
+            </Tooltip>
         </div>
     );
 };
