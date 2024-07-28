@@ -9,33 +9,33 @@ import user from "./user-data.json";
 
 function App() {
   useEffect(() => {
-    document.title = `${user.profile.name} | OpenCV`;
+    document.title = `${user.profile.name} | CV`;
   }, []);
   return (
     <div className="font-inter p-1  flex justify-center">
       <div className="max-w-2xl w-full flex flex-col gap-y-5 md:mt-8">
         {/* Profile Section */}
-        <Profile profile={user.profile} />
+        <Profile />
 
         {/* Skills Section */}
-        <Skill skills={user.skills} />
+        <Skill />
 
         {/* Experience Section */}
-        <Experience experiences={user.experiences} />
+        <Experience />
 
         {/* Education Section */}
-        <Education education={user.education} />
+        <Education />
 
         {/* Project Section */}
-        <Project projects={user.projects} />
+        <Project />
 
         {/* Award Section */}
-        <Award awards={user.awards} />
+        <Award />
 
         {/* Footer Section */}
         <div className="border-t border-slate-300/40 p-4">
           <div className="text-base text-center text-neutral-700 tracking-widest">
-            &copy; codexsusan
+            &copy; codexsusan 2024
           </div>
         </div>
       </div>

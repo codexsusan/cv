@@ -1,15 +1,13 @@
 import AwardCard, { AwardCardProps } from "../cards/AwardCard";
 import Header from "../common/Header";
 
-interface Award {
-    awards: AwardCardProps[];
-}
+import user from "../../user-data.json";
 
-function Award({ awards }: Award) {
+function Award() {
     return (
         <div className="flex flex-col gap-y-2 px-1.5">
             <Header classNames="p-1.5">Awards</Header>
-            {awards.map((award, index) => {
+            {user.awards.map((award: AwardCardProps, index) => {
                 return <AwardCard key={index} award={award} />;
             })}
         </div>

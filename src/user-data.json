@@ -1,17 +1,17 @@
 {
   "profile": {
     "name": "Susan Khadka",
-    "description": "Experienced Full Stack Developer dedicated to delivering high-quality web solutions for your unique needs.",
-
+    "description": "Dedicated and innovative Full Stack Developer with a strong foundation in web and mobile application development. Proficient in MERN stack, Next.js, and Flutter, with a proven track record of creating user-centric applications that solve real-world problems.",
+    "location": "Biratnagar, Nepal",
     "image": "https://avatars.githubusercontent.com/u/106180687?v=4",
     "email": { "name": "Email", "link": "mailto:susankhadka708@gmail.com" },
-    "medium": {
-      "github": { "name": "Github", "link": "https://github.com/codexsusan" },
-      "twitter": {
+    "medium": [
+      { "name": "Github", "link": "https://github.com/codexsusan" },
+      {
         "name": "Twitter",
         "link": "https://twitter.com/sushantkhadka_"
       }
-    }
+    ]
   },
   "skills": [
     "JavaScript",
@@ -19,24 +19,26 @@
     "React",
     "Node",
     "MongoDB",
+    "Dart",
+    "Flutter",
     "PostgreSQL",
     "Sequelize",
     "Tailwind CSS"
   ],
   "experiences": [
-      {
-        "role": "Full Stack Developer",
-        "company": "Maharshi Care",
-        "date": "May 2023 - Jan 2024",
-        "type": "",
-        "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
-      },
     {
-      "role": "Backend Developer",
-      "company": "Jotno",
-      "date": "July 2023 - Oct 2023",
-      "type": "Freelance",
-      "description": "Worked on the backend of the Jotno app."
+      "role": "Flutter Developer",
+      "company": "Suktas Inc.",
+      "date": "Jun 2024 - Present",
+      "type": "",
+      "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Maharshi Care",
+      "date": "May 2023 - Jan 2024",
+      "type": "",
+      "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
     }
   ],
   "education": [
@@ -121,7 +123,7 @@
   ],
   "awards": [
     {
-      "event": "Azadi Ka Amrit Mahotsav Hackathon 2022 - Winner",
+      "event": "Azadi Ka Amrit Mahotsav Hackathon 2022 - Appreciation",
       "date": "2023",
       "points": [
         "Selected among the top 69 teams out of 2087 teams for final round.",

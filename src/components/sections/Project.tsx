@@ -1,15 +1,12 @@
 import ProjectCard, { ProjectCardProps } from "../cards/ProjectCard";
 import Header from "../common/Header";
+import user from "../../user-data.json";
 
-interface ProjectProps {
-    projects: ProjectCardProps[];
-}
-
-function Project({ projects }: ProjectProps) {
+function Project() {
     return (
         <div className="flex flex-col gap-y-2 px-1.5">
             <Header classNames="p-1.5">Projects</Header>
-            {projects.map((project, index) => {
+            {user.projects.map((project: ProjectCardProps, index) => {
                 return <ProjectCard key={index} project={project} />;
             })}
         </div>

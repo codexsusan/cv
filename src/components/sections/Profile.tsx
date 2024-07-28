@@ -3,83 +3,74 @@ import Header from "../common/Header";
 import Description from "../common/Description";
 import Button from "../common/Button";
 import Tooltip from "../common/Tooltip";
+import user from "../../user-data.json";
 
-interface ProfileProps {
-    name: string;
-    description?: string;
-    location?: string;
-    image: string;
-    email?: { name: string; link: string };
-    medium: {
-        github: { name: string; link: string };
-        twitter: { name: string; link: string };
-    };
-}
 
-export function Profile({ profile }: { profile: ProfileProps }) {
+export function Profile() {
     return (
-        <div className="flex justify-between items-center gap-x-4 p-3">
-            <div className="flex-1 space-y-2">
-                <Header>{profile.name}</Header>
-                <ProfileDescription profile={profile} />
-                <ProfileLinks email={profile.email!} medium={profile.medium} />
+        <div>
+            <div className="flex justify-center items-center gap-x-4 p-3">
+                <div className="flex-1 space-y-2">
+                    <Header>{user.profile.name}</Header>
+                    <ProfileDescription />
+                </div>
+                <ProfileImage />
             </div>
-            <ProfileImage image={profile.image} />
+            <div className="mx-5">
+                <ProfileLinks />
+            </div>
         </div>
     );
 }
 
-export const ProfileDescription = ({ profile }: { profile: ProfileProps }) => {
+export const ProfileDescription = () => {
     return (
         <Description>
-            {profile.description ?? null}
-            {profile.location && (
+            {user.profile.description ?? null}
+            {user.profile!.location && (
                 <div className="max-w-md font-light text-base tracking-wider text-neutral-600 flex items-center gap-x-2 mt-3">
                     <MapPin size={20} className="inline" />
-                    <p className="font-inter mt-1">{profile.location}</p>
+                    <p className="font-inter mt-1">{user.profile.location}</p>
                 </div>
             )}
         </Description>
     );
 };
 
-export const ProfileLinks = ({
-    medium,
-    email,
-}: {
-    medium: ProfileProps["medium"];
-    email: ProfileProps["email"];
-}) => {
+export const ProfileLinks = () => {
     return (
         <div className="flex gap-x-3 text-gray-600 pt-2">
-            <Tooltip content="Github">
-                <ProfileLinkButton link={medium.github.link}>
-                    <Github strokeWidth={1.75} />
-                </ProfileLinkButton>
-            </Tooltip>
-            <Tooltip content="Twitter">
-                <ProfileLinkButton link={medium.twitter.link}>
-                    <Twitter strokeWidth={1.75} />
-                </ProfileLinkButton>
-            </Tooltip>
+            {user.profile.medium.map((medium) => (
+                <Tooltip content={medium.name}>
+                    <ProfileLinkButton link={medium.link}>
+                        {medium.name === "Github" ? (
+                            <Github strokeWidth={1.75} />
+                        ) : medium.name === "Twitter" ? (
+                            <Twitter strokeWidth={1.75} />
+                        ) : (
+                            <MailOpen />
+                        )}
+                    </ProfileLinkButton>
+                </Tooltip>
+            ))}
             <Tooltip content="Email">
-                {email && <MailButton link={email.link} />}
+                {user.profile.email && <MailButton />}
             </Tooltip>
         </div>
     );
 };
 
-export const ProfileImage = ({ image }: { image: ProfileProps["image"] }) => {
+export const ProfileImage = () => {
     return (
         <div className="size-28">
-            <img className="w-full h-full rounded-xl" src={image} alt="profile" />
+            <img className="w-full h-full rounded-xl" src={user.profile.image} alt="profile" />
         </div>
     );
 };
 
-export const MailButton = ({ link }: { link: string }) => {
+export const MailButton = () => {
     return (
-        <a href={link} target="_blank">
+        <a href={user.profile.email!.link} target="_blank">
             <Button>
                 <MailOpen />
             </Button>

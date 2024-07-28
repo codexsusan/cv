@@ -1,15 +1,12 @@
 import EducationCard, { EducationCardProps } from "../cards/EducationCard";
 import Header from "../common/Header";
+import user from "../../user-data.json";
 
-interface EducationProps {
-    education: EducationCardProps[];
-}
-
-function Education({ education }: EducationProps) {
+function Education() {
     return (
         <div className="flex flex-col gap-y-2 px-1.5">
             <Header classNames="p-1.5">Education</Header>
-            {education.map((education, index) => {
+            {user.education.map((education: EducationCardProps, index) => {
                 return <EducationCard key={index} education={education} />;
             })}
         </div>
