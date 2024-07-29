@@ -1,8 +1,8 @@
 ![Preview Image](public/preview.png)
 
 
-# OpenCV
-OpenCV is acts as a template if anyone want to quickly setup a cv/portfolio website. It has been developed by inspiring from [Bartosz Jarocki](https://cv.jarocki.me/) cv website. [Github Link](https://github.com/bartoszjarocki/cv).
+# CV
+CV is acts as a template if anyone want to quickly setup a cv/portfolio website. It has been developed by inspiring from [Bartosz Jarocki](https://cv.jarocki.me/) cv website. [Github Link](https://github.com/bartoszjarocki/cv).
 
 It is built using React with Typescript.
 
@@ -11,7 +11,7 @@ It is built using React with Typescript.
 To get started with OpenCV, follow these simple steps:
 
 1. Clone the repository:  `git clone https://github.com/codexsusan/OpenCV`
-2. Change directory to OpenCV: `cd OpenCV`
+2. Change directory to CV: `cd CV`
 3. Install the required dependencies: `npm install`
 4. Start the server: `npm run dev`
 5. Open your browser and access OpenCV at `http://localhost:5173`
