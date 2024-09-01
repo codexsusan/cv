@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Susan Khadka",
-    "description": "Dedicated and innovative Full Stack Developer with a strong foundation in web and mobile application development. Proficient in MERN stack, Next.js, and Flutter, with a proven track record of creating user-centric applications that solve real-world problems.",
+    "description": "Dedicated and innovative Full Stack Developer with a strong foundation in web development and a passion for building user-friendly and efficient software solutions.",
     "location": "Biratnagar, Nepal",
     "image": "https://avatars.githubusercontent.com/u/106180687?v=4",
     "email": { "name": "Email", "link": "mailto:susankhadka708@gmail.com" },
@@ -27,18 +27,47 @@
   ],
   "experiences": [
     {
-      "role": "Flutter Developer",
-      "company": "Suktas Inc.",
-      "date": "Jun 2024 - Present",
-      "type": "",
-      "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
+      "role": "Full Stack Developer",
+      "company": "Cavecrack Inc.",
+      "link": "https://cavecrack.com",
+      "location": "Palo Alto, California, USA",
+      "date": "August 2024 - Present",
+      "type": "Remote",
+      "description": "",
+      "tasks": [
+        "Streamlined responsive frontend interfaces using Next.js, resulting in a 30% improvement in cross-browser compatibility.",
+        "Spearheaded the implementation of Next Auth, enhancing security and user experience with magic link logins and Google sign-in.",
+        "Collaborated with cross-functional teams to develop a comprehensive web application from the ground up, resulting in a 20% reduction in development time."
+      ]
     },
     {
-      "role": "Full Stack Developer",
+      "role": "Flutter Developer",
+      "company": "Suktas Inc.",
+      "link": "https://suktas.com",
+      "location": "Biratnagar, Nepal",
+      "date": "May 2024 - July 2024",
+      "type": "On-site",
+      "description": "",
+      "tasks": [
+        "Architected an enterprise-level software solution using Flutter, integrating core business processes and achieving a 30% increase in operational efficiency.",
+        "Optimized RESTful API consumption and state management, resulting in a 25% reduction in data transfer time and increased app performance.",
+        "Orchestrated a seamless integration of push notifications into the existing mobile app infrastructure, leading to a significant rise in user engagement, with daily active users increasing by 1,000 within the first month.",
+        "Mentored interns, conduct code reviews, and established best practices, leading to a 15% increase in team productivity and code quality."
+      ]
+    },
+    {
+      "role": "Full Stack Developer Intern",
       "company": "Maharshi Care",
+      "link": "",
+      "location": "Gujarat, India",
       "date": "May 2023 - Jan 2024",
-      "type": "",
-      "description": "Worked as a founding engineer to develop a collaborative platform for doctor's and patients."
+      "type": "On-site",
+      "description": "",
+      "tasks": [
+        "Developed responsive frontend interfaces with React.js, improving user experience across devices and increasing mobile traffic by 15%.",
+        "Engineered efficient RESTful APIs using Node.js and Express.js, reducing server response time by 20%.",
+        "Implemented version control best practices using Git, streamlining team collaboration and reducing merge conflicts."
+      ]
     }
   ],
   "education": [
@@ -115,10 +144,15 @@
     },
     {
       "title": "Sahayata Setu",
-      "description": "Android application that connects donors, beneficiaries, volunteer and NGO’s on a single platform.",
+      "description": "Android application that connects donors, beneficiaries, volunteer and NGO's on a single platform.",
       "date": "Feb 2023",
       "stack": ["Flutter", "Dart", "Node JS", "Mongo"],
-      "links": []
+      "links": [
+        {
+          "name": "Github",
+          "link": "https://github.com/Sahayata-Setu/app"
+        }
+      ]
     }
   ],
   "awards": [
@@ -126,8 +160,7 @@
       "event": "Azadi Ka Amrit Mahotsav Hackathon 2022 - Appreciation",
       "date": "2023",
       "points": [
-        "Selected among the top 69 teams out of 2087 teams for final round.",
-        "Developed an android application for Rajkot Municipal Corporation for donating and receiving food, clothes, and other essentials."
+        "Led a high-performing team to victory, securing second place among 2500+ competitors by developing an innovative solution for non-monetary donations."
       ],
       "stack": ["Flutter", "Dart", "Node", "Express", "Git", "MongoDB"]
     }

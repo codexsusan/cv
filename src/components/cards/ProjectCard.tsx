@@ -17,7 +17,7 @@ export interface ProjectCardProps {
 
 function ProjectCard({ project }: { project: ProjectCardProps }) {
   return (
-    <div className="lex flex-col space-y-3 border border-slate-300/40 p-2 rounded-md hover:bg-gray-50 hover:border-gray-300">
+    <div className="flex flex-col space-y-3 border border-slate-300/40 p-4 rounded-md hover:bg-gray-50 hover:border-gray-300">
       <div className="flex justify-between items-center">
         <SubHeader>{project.title}</SubHeader>
         <p className="text-sm tabular-nums tracking-wider">{project.date}</p>
