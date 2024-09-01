@@ -1,4 +1,5 @@
 import Link from "../../assets/icons/link";
+import Bullet from "../common/Bullet";
 import Button from "../common/Button";
 import List from "../common/List";
 import SubHeader from "../common/SubHeader";
@@ -12,6 +13,7 @@ export interface ExperienceCardProps {
   type: string;
   description: string;
   tasks: string[];
+  stack: string[];
 }
 
 function ExperienceCard({ experience }: { experience: ExperienceCardProps }) {
@@ -50,6 +52,11 @@ function ExperienceCard({ experience }: { experience: ExperienceCardProps }) {
             return <List key={index}>{task}</List>;
           })
         }
+      </div>
+      <div className="flex justify-center gap-2 flex-wrap mt-4">
+        {experience.stack.map((skill, index) => {
+          return <Bullet key={index}>{skill}</Bullet>;
+        })}
       </div>
     </div>
   );

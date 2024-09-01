@@ -4,6 +4,7 @@ export interface EducationCardProps {
   institute: string;
   date: string;
   course: string;
+  cgpa: string;
 }
 
 function EducationCard({ education }: { education: EducationCardProps }) {
@@ -13,8 +14,9 @@ function EducationCard({ education }: { education: EducationCardProps }) {
         <SubHeader>{education.institute}</SubHeader>
         <p className="text-sm tabular-nums tracking-wider">{education.date}</p>
       </div>
-      <div className="flex">
+      <div className="space-y-1">
         <div className="text-sm font-mono">{education.course}</div>
+        <div className="text-sm font-mono">CGPA - {education.cgpa}</div>
       </div>
     </div>
   );

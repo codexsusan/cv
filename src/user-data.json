@@ -16,6 +16,7 @@
   "skills": [
     "JavaScript",
     "TypeScript",
+    "Next JS",
     "React",
     "Node",
     "MongoDB",
@@ -23,6 +24,7 @@
     "Flutter",
     "PostgreSQL",
     "Sequelize",
+    "Prisma",
     "Tailwind CSS"
   ],
   "experiences": [
@@ -38,6 +40,10 @@
         "Streamlined responsive frontend interfaces using Next.js, resulting in a 30% improvement in cross-browser compatibility.",
         "Spearheaded the implementation of Next Auth, enhancing security and user experience with magic link logins and Google sign-in.",
         "Collaborated with cross-functional teams to develop a comprehensive web application from the ground up, resulting in a 20% reduction in development time."
+      ],
+      "stack": [
+        "Next JS", "Nextra Docs", "Tailwind CSS", "Typescript", "React",
+        "Node", "Express", "PostgreSQL", "Git", "Vercel"
       ]
     },
     {
@@ -53,6 +59,13 @@
         "Optimized RESTful API consumption and state management, resulting in a 25% reduction in data transfer time and increased app performance.",
         "Orchestrated a seamless integration of push notifications into the existing mobile app infrastructure, leading to a significant rise in user engagement, with daily active users increasing by 1,000 within the first month.",
         "Mentored interns, conduct code reviews, and established best practices, leading to a 15% increase in team productivity and code quality."
+      ],
+      "stack": [
+        "Dart",
+        "Flutter",
+        "Firebase",
+        "Google Cloud Console",
+        "Google Play Console"
       ]
     },
     {
@@ -67,6 +80,16 @@
         "Developed responsive frontend interfaces with React.js, improving user experience across devices and increasing mobile traffic by 15%.",
         "Engineered efficient RESTful APIs using Node.js and Express.js, reducing server response time by 20%.",
         "Implemented version control best practices using Git, streamlining team collaboration and reducing merge conflicts."
+      ],
+      "stack": [
+        "React",
+        "Node",
+        "Express",
+        "PostgreSQL",
+        "Redux Toolkit",
+        "Typescript",
+        "Tailwind CSS",
+        "Git"
       ]
     }
   ],
@@ -74,7 +97,8 @@
     {
       "institute": "Marwadi University",
       "date": "2020 - 2024",
-      "course": "Bachelor's Degree in Computer Engineering"
+      "course": "Bachelor's Degree in Computer Engineering",
+      "cgpa": "8.44/10"
     }
   ],
   "projects": [
