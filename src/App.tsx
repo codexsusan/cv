@@ -6,6 +6,7 @@ import { Profile } from "./components/sections/Profile";
 import Project from "./components/sections/Project";
 import Skill from "./components/sections/Skill";
 import user from "./user-data.json";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
   }, []);
   return (
     <div className="font-inter p-1  flex justify-center">
+      <Analytics />
       <div className="max-w-2xl w-full flex flex-col gap-y-5 md:mt-8">
         {/* Profile Section */}
         <Profile />
