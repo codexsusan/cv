@@ -37,7 +37,7 @@ function App() {
         {/* Footer Section */}
         <div className="border-t border-slate-300/40 p-4">
           <div className="text-base text-center text-neutral-700 tracking-widest">
-            &copy; codexsusan 2024
+            &copy; codexsusan {(new Date()).getFullYear()}
           </div>
         </div>
       </div>

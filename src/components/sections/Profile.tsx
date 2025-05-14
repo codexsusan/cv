@@ -28,7 +28,7 @@ export const ProfileDescription = () => {
         <Description>
             {user.profile.description ?? null}
             {user.profile!.location && (
-                <div className="max-w-md font-light text-base tracking-wider text-neutral-600 flex items-center gap-x-2 mt-3">
+                <div className="max-w-md text-base text-neutral-600 flex items-center gap-x-2 mt-3">
                     <MapPin size={20} className="inline" />
                     <p className="font-inter mt-1">{user.profile.location}</p>
                 </div>

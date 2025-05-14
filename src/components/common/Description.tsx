@@ -1,6 +1,6 @@
 function Description({ children }: { children: React.ReactNode }) {
     return (
-        <div className=" font-light text-pretty text-base tracking-wider text-neutral-600">
+        <div className=" text-base ">
             {children}
         </div>
     );

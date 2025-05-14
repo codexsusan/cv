@@ -29,11 +29,29 @@
   ],
   "experiences": [
     {
+      "role": "Developer",
+      "company": "Scopic Software",
+      "link": "https://scopicsoftware.com/",
+      "location": "USA",
+      "date": "October 2024 - Present",
+      "type": "Remote",
+      "description": "",
+      "tasks": [
+        "Developed and implemented a full-stack monitoring system to track customer resource utilization, enabling real-time visibility into API key usage patterns",
+        "Architected an automated data processing pipeline for wind data feeds, successfully parsing and filtering complex datasets while ensuring 99% data quality and integrity",
+        "Optimized the user interface design through iterative improvements, implementing responsive design principles and optimizing data presentation for an enhanced user experience",
+        "Engineered critical performance improvements for radar image animations, implementing efficient cleanup functions that reduced load times by 75% and optimized tile layer rendering for a seamless user experience."
+      ],
+      "stack": [
+        "React", "PHP", "Typescript", "MySQL", "Maputnik", "Git"
+      ]
+    },
+    {
       "role": "Full Stack Developer",
       "company": "Cavecrack Inc.",
       "link": "https://cavecrack.com",
       "location": "Palo Alto, California, USA",
-      "date": "August 2024 - Present",
+      "date": "August 2024 - October 2024",
       "type": "Remote",
       "description": "",
       "tasks": [
@@ -103,6 +121,26 @@
   ],
   "projects": [
     {
+      "title": "Vintage Vault",
+      "description": "Vintage vault is a web-based auction application for antique items that leverages web sockets for real time communication between users.",
+      "date": "July 2024 - Aug 2024",
+      "stack": [
+        "React",
+        "Web Sockets",
+        "Typescript",
+        "Tailwind CSS",
+        "Express",
+        "MongoDB",
+        "Shadcn UI"
+      ],
+      "links": [
+        {
+          "name": "Github",
+          "link": "https://github.com/codexsusan/vintagevault"
+        }
+      ]
+    },
+    {
       "title": "Social Hub",
       "description": "Social Hub is a dynamic social community based platform designed to provide users with a Reddit-like experience. It helps users to connect with people of similar interests and hobbies.",
       "date": "Aug 2023 - Oct 2023",
@@ -119,10 +157,6 @@
         {
           "name": "Github",
           "link": "https://github.com/codexsusan/social-hub"
-        },
-        {
-          "name": "Live",
-          "link": "https://socialhub.susankhadka.com.np/"
         }
       ]
     },
@@ -143,16 +177,12 @@
         {
           "name": "Github",
           "link": "https://github.com/codexsusan/taskboard"
-        },
-        {
-          "name": "Live",
-          "link": "https://taskboard.susankhadka.com.np/"
         }
       ]
     },
     {
-      "title": "Bloomsphere",
-      "description": "This project is a personal blog platform with responsive design and robust, to easily create and manage my own blogs with markdown files. Leveraging the simplicity and versatility of markdown.",
+      "title": "Journal",
+      "description": "It is a personal blog platform with responsive design and robust, to easily create and manage my own blogs with markdown files. Leveraging the simplicity and versatility of markdown.",
       "date": "Dec 2023 - Jan 2024",
       "stack": ["Next JS", "Typescript", "Tailwind CSS"],
       "links": [
@@ -162,7 +192,7 @@
         },
         {
           "name": "Live",
-          "link": "https://bloomsphere.susankhadka.com.np"
+          "link": "https://blog.susankhadka.com.np"
         }
       ]
     },
