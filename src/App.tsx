@@ -13,9 +13,9 @@ function App() {
     document.title = `${user.profile.name} | CV`;
   }, []);
   return (
-    <div className="font-inter p-1  flex justify-center">
+    <div className="font-inter p-2 sm:p-1 flex justify-center">
       <Analytics />
-      <div className="max-w-2xl w-full flex flex-col gap-y-5 md:mt-8">
+      <div className="max-w-2xl w-full flex flex-col gap-y-4 sm:gap-y-5 md:mt-8">
         {/* Profile Section */}
         <Profile />
 
@@ -35,8 +35,8 @@ function App() {
         <Award />
 
         {/* Footer Section */}
-        <div className="border-t border-slate-300/40 p-4">
-          <div className="text-base text-center text-neutral-700 tracking-widest">
+        <div className="border-t border-slate-300/40 p-3 sm:p-4">
+          <div className="text-sm sm:text-base text-center text-neutral-700 tracking-widest">
             &copy; codexsusan {(new Date()).getFullYear()}
           </div>
         </div>

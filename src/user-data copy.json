@@ -71,7 +71,7 @@
       "role": "Full Stack Developer",
       "company": "Cavecrack Inc.",
       "link": "https://cavecrack.com",
-      "location": "California, USA",
+      "location": "Palo Alto, California, USA",
       "date": "August 2024 - October 2024",
       "type": "Remote",
       "description": "",
@@ -113,6 +113,30 @@
         "Firebase",
         "Google Cloud Console",
         "Google Play Console"
+      ]
+    },
+    {
+      "role": "Full Stack Developer Intern",
+      "company": "Maharshi Care",
+      "link": "",
+      "location": "Gujarat, India",
+      "date": "May 2023 - Jan 2024",
+      "type": "On-site",
+      "description": "",
+      "tasks": [
+        "Developed responsive frontend interfaces with React.js, improving user experience across devices and increasing mobile traffic by 15%.",
+        "Engineered efficient RESTful APIs using Node.js and Express.js, reducing server response time by 20%.",
+        "Implemented version control best practices using Git, streamlining team collaboration and reducing merge conflicts."
+      ],
+      "stack": [
+        "React",
+        "Node",
+        "Express",
+        "PostgreSQL",
+        "Redux Toolkit",
+        "Typescript",
+        "Tailwind CSS",
+        "Git"
       ]
     }
   ],

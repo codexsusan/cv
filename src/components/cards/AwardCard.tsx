@@ -12,10 +12,10 @@ export interface AwardCardProps {
 
 function AwardCard({ award }: { award: AwardCardProps }) {
     return (
-        <div className="lex flex-col space-y-3 border border-slate-300/40 p-4 rounded-md hover:bg-gray-50 hover:border-gray-300">
-            <div className="flex justify-between items-center gap-x-2">
+        <div className="flex flex-col space-y-2 sm:space-y-3 border border-slate-300/40 p-3 sm:p-4 rounded-md hover:bg-gray-50 hover:border-gray-300">
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-y-1 sm:gap-y-0 sm:gap-x-2">
                 <SubHeader>{award.event}</SubHeader>
-                <p className="text-sm tabular-nums tracking-wider">{award.date}</p>
+                <p className="text-xs sm:text-sm tabular-nums tracking-wider">{award.date}</p>
             </div>
             <div className="flex items-center">
                 <Description>
@@ -24,7 +24,7 @@ function AwardCard({ award }: { award: AwardCardProps }) {
                     })}
                 </Description>
             </div>
-            <div className="flex gap-2 flex-wrap">
+            <div className="flex gap-1.5 sm:gap-2 flex-wrap">
                 {
                     award.stack.map((skill, index) => {
                         return <Bullet key={index}>{skill}</Bullet>;
