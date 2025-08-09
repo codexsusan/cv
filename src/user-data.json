@@ -1,8 +1,8 @@
 {
   "profile": {
     "name": "Susan Khadka",
-    "description": "Dedicated and innovative Full Stack Developer with a strong foundation in web development and a passion for building user-friendly and efficient software solutions.",
-    "location": "Biratnagar, Nepal",
+    "description": "Full Stack Software Engineer with 1+ years of experience building scalable web applications using JavaScript/TypeScript, React, Node.js, and modern frameworks. Proven track record in optimizing application performance, implementing real-time features, and collaborating with cross-functional teams. Experienced in front-end and back-end development with experience in MongoDB, PostgreSQL, and AWS services.",
+    "location": "Kathmandu, Nepal",
     "image": "https://avatars.githubusercontent.com/u/106180687?v=4",
     "email": { "name": "Email", "link": "mailto:susankhadka708@gmail.com" },
     "medium": [
@@ -18,94 +18,79 @@
     "TypeScript",
     "Next JS",
     "React",
+    "Context API",
+    "Redux Toolkit",
+    "TanStack Query",
     "Node",
-    "MongoDB",
-    "Dart",
+    "Express",
     "Flutter",
+    "MongoDB",
     "PostgreSQL",
+    "MySQL",
     "Sequelize",
     "Prisma",
-    "Tailwind CSS"
+    "Firebase",
+    "Dart",
+    "Tailwind CSS",
+    "Ant Design",
+    "Docker",
+    "AWS",
+    "Git"
   ],
   "experiences": [
     {
-      "role": "Frontend Developer",
+      "role": "Full Stack Developer",
       "company": "Purchasync",
       "link": "https://purchasync.com/",
-      "location": "Dubai, UAE",
+      "location": "Dubai",
       "date": "March 2025 - Present",
-      "type": "Remote",
+      "type": "Contract, Remote",
       "description": "",
       "tasks": [
-        "Architected and developed a comprehensive B2B marketplace frontend using Next.js and ReactJS, enabling seamless interaction within a unified platform ecosystem.",
-        "Integrated a comprehensive authentication and authorization system, reducing user-reported access-related issues by 20%.",
-        "Built efficient API consumption layer using TanStack Query for RESTful services, reducing data loading times by 40% and improving application performance.",
-        "Spearheaded end-to-end Request for Quotation (RFQ) workflow system, facilitating seamless communication between buyers and vendors while streamlining the procurement process."
+        "Designed and built modern B2B marketplace interface from scratch using Next.js 14 and TypeScript, enabling seamless interaction within a unified platform ecosystem.",
+        "Implemented secure user authentication flow with role-based permissions, eliminating previous access bottlenecks and improving user onboarding.",
+        "Created reusable component library with TanStack Query integration, eliminating duplicate API calls, reducing data fetching time by 60%.",
+        "Led frontend development of automated quotation management system, enabling buyers and suppliers to process RFQs faster than manual workflows."
       ],
       "stack": [
         "Next.js",
-        "Typescript",
+        "TypeScript",
         "Ant Design",
         "Tailwind CSS",
         "TanStack Query",
+        "Nest.js",
         "Git"
       ]
     },
     {
-      "role": "Developer",
+      "role": "Full Stack Developer",
       "company": "Scopic Software",
       "link": "https://scopicsoftware.com/",
       "location": "USA",
       "date": "October 2024 - Present",
-      "type": "Remote",
+      "type": "Contract, Remote",
       "description": "",
       "tasks": [
-        "Developed and implemented a full-stack monitoring system to track customer resource utilization, enabling real-time visibility into API key usage patterns",
-        "Architected an automated data processing pipeline for wind data feeds, successfully parsing and filtering complex datasets while ensuring 99% data quality and integrity",
-        "Optimized the user interface design through iterative improvements, implementing responsive design principles and optimizing data presentation for an enhanced user experience",
-        "Engineered critical performance improvements for radar image animations, implementing efficient cleanup functions that reduced load times by 75% and optimized tile layer rendering for a seamless user experience."
+        "Engineered interactive analytics dashboards to track customer API usage and resource consumption, enabling data-driven subscription pricing strategies for 50+ enterprise clients.",
+        "Engineered robust ETL pipeline processing 12,000+ weather data records daily from AllisonHouse API, implementing error handling and data validation to maintain accuracy.",
+        "Transformed radar visualization performance through strategic code refactoring and asset optimization, achieving 80% reduction in load times (from 18-20 seconds to 3-4 seconds).",
+        "Enhanced application accessibility by implementing WCAG 2.1 standards and keyboard navigation, expanding platform usability for diverse user base."
       ],
-      "stack": ["React", "PHP", "Typescript", "MySQL", "Maputnik", "Git"]
+      "stack": ["React", "PHP", "JavaScript" , "TypeScript", "Bootstrap", "MySQL", "Maputnik", "Git"]
     },
     {
-      "role": "Full Stack Developer",
-      "company": "Cavecrack Inc.",
-      "link": "https://cavecrack.com",
-      "location": "California, USA",
-      "date": "August 2024 - October 2024",
-      "type": "Remote",
-      "description": "",
-      "tasks": [
-        "Streamlined responsive frontend interfaces using Next.js, resulting in a 30% improvement in cross-browser compatibility.",
-        "Spearheaded the implementation of Next Auth, enhancing security and user experience with magic link logins and Google sign-in.",
-        "Collaborated with cross-functional teams to develop a comprehensive web application from the ground up, resulting in a 20% reduction in development time."
-      ],
-      "stack": [
-        "Next JS",
-        "Nextra Docs",
-        "Tailwind CSS",
-        "Typescript",
-        "React",
-        "Node",
-        "Express",
-        "PostgreSQL",
-        "Git",
-        "Vercel"
-      ]
-    },
-    {
-      "role": "Flutter Developer",
+      "role": "Mobile Application Developer",
       "company": "Suktas Inc.",
       "link": "https://suktas.com",
       "location": "Biratnagar, Nepal",
       "date": "May 2024 - July 2024",
-      "type": "On-site",
+      "type": "Full-time, On-site",
       "description": "",
       "tasks": [
-        "Architected an enterprise-level software solution using Flutter, integrating core business processes and achieving a 30% increase in operational efficiency.",
-        "Optimized RESTful API consumption and state management, resulting in a 25% reduction in data transfer time and increased app performance.",
-        "Orchestrated a seamless integration of push notifications into the existing mobile app infrastructure, leading to a significant rise in user engagement, with daily active users increasing by 1,000 within the first month.",
-        "Mentored interns, conduct code reviews, and established best practices, leading to a 15% increase in team productivity and code quality."
+        "Delivered cross-platform school management application using Flutter and Dart, streamlining administrative processes for 30+ educational institutions.",
+        "Constructed real-time notification system with Firebase Cloud Messaging, driving 25% increase in parent-teacher engagement and reducing communication delays.",
+        "Optimized app state management using Riverpod architecture, resulting in 30% improvement in app responsiveness and reduced memory usage.",
+        "Provided technical mentorship to 2 intern developers through code reviews and pair programming sessions, accelerating team delivery timelines."
       ],
       "stack": [
         "Dart",
@@ -137,7 +122,7 @@
       "stack": [
         "React",
         "Web Sockets",
-        "Typescript",
+        "TypeScript",
         "Tailwind CSS",
         "Express",
         "MongoDB",
@@ -157,7 +142,7 @@
       "stack": [
         "React",
         "Redux Toolkit",
-        "Typescript",
+        "TypeScript",
         "Tailwind CSS",
         "Node",
         "Express",
@@ -176,7 +161,7 @@
       "date": "May 2023 - July 2023",
       "stack": [
         "React",
-        "Typescript",
+        "TypeScript",
         "Node",
         "Express",
         "PostgreSQL",
@@ -194,15 +179,11 @@
       "title": "Journal",
       "description": "It is a personal blog platform with responsive design and robust, to easily create and manage my own blogs with markdown files. Leveraging the simplicity and versatility of markdown.",
       "date": "Dec 2023 - Jan 2024",
-      "stack": ["Next JS", "Typescript", "Tailwind CSS"],
+      "stack": ["Next JS", "TypeScript", "Tailwind CSS"],
       "links": [
         {
           "name": "Github",
           "link": "https://github.com/codexsusan/bloomsphere"
-        },
-        {
-          "name": "Live",
-          "link": "https://blog.susankhadka.com.np"
         }
       ]
     },

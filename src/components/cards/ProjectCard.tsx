@@ -43,7 +43,7 @@ function ProjectCard({ project }: { project: ProjectCardProps }) {
           })}
         </div>
       </div>
-      <div className="flex gap-1.5 sm:gap-2 flex-wrap">
+      <div className="flex justify-center gap-1.5 sm:gap-2 flex-wrap">
         {project.stack.map((skill, index) => {
           return <Bullet key={index}>{skill}</Bullet>;
         })}

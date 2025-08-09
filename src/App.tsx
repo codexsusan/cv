@@ -36,8 +36,13 @@ function App() {
 
         {/* Footer Section */}
         <div className="border-t border-slate-300/40 p-3 sm:p-4">
-          <div className="text-sm sm:text-base text-center text-neutral-700 tracking-widest">
-            &copy; codexsusan {(new Date()).getFullYear()}
+          <div className="text-sm sm:text-base text-center text-neutral-700 tracking-widest flex justify-center items-center gap-x-2">
+            <p>
+              &copy;
+            </p>
+            <p>
+              Susan Khadka {(new Date()).getFullYear()}
+            </p>
           </div>
         </div>
       </div>

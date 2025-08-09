@@ -19,9 +19,9 @@ export interface ExperienceCardProps {
 function ExperienceCard({ experience }: { experience: ExperienceCardProps }) {
   return (
     <div className="flex flex-col border border-slate-300/40 p-3 sm:p-4 rounded-md hover:bg-gray-50 hover:border-gray-300">
-      <div className="flex  sm:flex-row justify-between items-center gap-y-1 sm:gap-y-0">
+      <div className="flex flex-wrap sm:flex-row justify-between items-center gap-y-1 sm:gap-y-0">
         <div className="flex items-baseline gap-x-2">
-          <SubHeader>{experience.company}</SubHeader>
+          <SubHeader>{experience.role}</SubHeader>
         </div>
         {experience.link.length > 0 && (
           <Button>
@@ -39,15 +39,17 @@ function ExperienceCard({ experience }: { experience: ExperienceCardProps }) {
         )}
 
       </div>
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-y-2 sm:gap-y-0 sm:gap-x-2 tracking-wide">
-        <div className="flex flex-col sm:flex-row sm:items-center gap-y-1 sm:gap-y-0 sm:gap-x-2">
-          <div className="font-normal text-sm sm:text-base">{experience.role}</div>
-          <div className="flex flex-row items-center gap-x-2">
-            {experience.type.length > 0 && <List>{experience.type}</List>}
-            <List>{experience.location}</List>
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-y-2 sm:gap-y-0 sm:gap-x-2 tracking-wide mt-1">
+        <div className="flex flex-1 flex-col sm:flex-row sm:items-center gap-y-1 sm:gap-y-0 sm:gap-x-2">
+          <div className="font-normal text-xs sm:text-sm md:text-base">{experience.company}</div>
+          <div className="flex justify-between items-center flex-1 flex-wrap">
+            <div className="flex flex-row flex-wrap items-center gap-x-2">
+              {experience.type.length > 0 && <List>{experience.type}</List>}
+              <List>{experience.location}</List>
+            </div>
+            <p className="text-xs sm:text-sm md:text-base px-1.5 tracking-wider ms-3">{experience.date}</p>
           </div>
         </div>
-        <p className="text-sm sm:text-base tracking-wider">{experience.date}</p>
       </div>
       <div className="mt-2">
         {
